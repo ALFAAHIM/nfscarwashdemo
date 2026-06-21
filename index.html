@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFS Carwash — Premium Car Wash & Detailing Service</title>
+  <meta name="description" content="NFS Carwash offers premium foam wash, interior cleaning, polishing, and full detailing services. Trusted local car wash with a quality finish and quick turnaround." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== STICKY NAV ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <span class="logo-nfs">NFS</span><span class="logo-cw">CARWASH</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+        <li><a href="tel:+917902000000" class="nav-cta" id="nav-call-btn">Call Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="hero.png" alt="NFS Carwash team washing a premium SUV" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Serving Kerala Since 2015</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-nfs">NFS</span>
+        <span class="title-carwash">CARWASH</span>
+      </h1>
+      <p class="hero-tagline">Premium Car Wash &amp; Detailing Service</p>
+      <p class="hero-sub">Waterless • Foam • Interior • Detailing — At Your Doorstep</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/917902000000" class="btn-primary" id="hero-whatsapp-btn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.121 1.532 5.852L0 24l6.322-1.517A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.681-.516-5.21-1.414l-.374-.222-3.751.9.938-3.661-.243-.387A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp Us
+        </a>
+        <a href="tel:+917902000000" class="btn-secondary" id="hero-call-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Call Now
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">5000+</span>
+          <span class="stat-label">Cars Cleaned</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">4.9★</span>
+          <span class="stat-label">Customer Rating</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our <span class="accent">Services</span></h2>
+        <p class="section-sub">Professional care for every vehicle, every time.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" id="service-foam">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="38" r="10" fill="url(#g1)" opacity="0.9"/>
+                <circle cx="36" cy="30" r="13" fill="url(#g1)" opacity="0.8"/>
+                <circle cx="50" cy="38" r="9" fill="url(#g1)" opacity="0.9"/>
+                <circle cx="28" cy="46" r="8" fill="url(#g1)" opacity="0.7"/>
+                <circle cx="44" cy="46" r="7" fill="url(#g1)" opacity="0.7"/>
+                <defs>
+                  <linearGradient id="g1" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#60a5fa"/>
+                    <stop offset="1" stop-color="#2563eb"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <h3 class="service-name">Foam Wash</h3>
+          <p class="service-desc">Thick foam blanket lifts dirt and grime off your car's surface without scratching the paint. Safe and effective for all vehicle types.</p>
+          <div class="service-price">From ₹199</div>
+        </div>
+
+        <div class="service-card" id="service-interior">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="20" width="48" height="28" rx="6" fill="url(#g2)" opacity="0.15"/>
+                <path d="M12 28 Q20 20 32 22 Q44 20 52 28" stroke="url(#g2)" stroke-width="2.5" fill="none"/>
+                <ellipse cx="32" cy="36" rx="12" ry="6" fill="url(#g2)" opacity="0.6"/>
+                <circle cx="24" cy="44" r="4" fill="url(#g2)"/>
+                <circle cx="40" cy="44" r="4" fill="url(#g2)"/>
+                <defs>
+                  <linearGradient id="g2" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#a78bfa"/>
+                    <stop offset="1" stop-color="#7c3aed"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <h3 class="service-name">Interior Cleaning</h3>
+          <p class="service-desc">Deep vacuum, dashboard wipe-down, seat cleaning, and deodorizing. Your cabin restored to factory-fresh condition.</p>
+          <div class="service-price">From ₹499</div>
+        </div>
+
+        <div class="service-card" id="service-polish">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="20" stroke="url(#g3)" stroke-width="2.5"/>
+                <circle cx="32" cy="32" r="14" fill="url(#g3)" opacity="0.3"/>
+                <circle cx="32" cy="32" r="7" fill="url(#g3)" opacity="0.8"/>
+                <path d="M20 20 L26 26" stroke="url(#g3)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M44 20 L38 26" stroke="url(#g3)" stroke-width="2" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="g3" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#fbbf24"/>
+                    <stop offset="1" stop-color="#d97706"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <h3 class="service-name">Polishing</h3>
+          <p class="service-desc">Machine polishing to remove swirl marks, light scratches, and oxidation. Brings back that showroom-level gloss and depth.</p>
+          <div class="service-price">From ₹999</div>
+        </div>
+
+        <div class="service-card service-card--featured" id="service-detailing">
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 40 L16 24 L48 24 L56 40 Z" fill="url(#g4)" opacity="0.2"/>
+                <path d="M10 40 Q10 48 32 48 Q54 48 54 40" stroke="url(#g4)" stroke-width="2.5" fill="none"/>
+                <rect x="14" y="28" width="36" height="10" rx="3" fill="url(#g4)" opacity="0.5"/>
+                <circle cx="18" cy="46" r="5" stroke="url(#g4)" stroke-width="2"/>
+                <circle cx="46" cy="46" r="5" stroke="url(#g4)" stroke-width="2"/>
+                <path d="M30 16 L34 16" stroke="url(#g4)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M28 12 L36 12" stroke="url(#g4)" stroke-width="2" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="g4" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#34d399"/>
+                    <stop offset="1" stop-color="#059669"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <h3 class="service-name">Full Detailing</h3>
+          <p class="service-desc">The complete package — exterior foam wash, clay bar treatment, polish, wax coat, interior deep clean, and tire dressing. Your car, reimagined.</p>
+          <div class="service-price">From ₹2,499</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section section--dark" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Promise</span>
+        <h2 class="section-title">Why Choose <span class="accent">NFS</span></h2>
+        <p class="section-sub">We've built our reputation one spotless car at a time.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card" id="why-quality">
+          <div class="why-number">01</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 3 L19.6 11.2 L28 12.4 L22 18.2 L23.4 26.5 L16 22.5 L8.6 26.5 L10 18.2 L4 12.4 L12.4 11.2 Z" stroke="#60a5fa" stroke-width="1.5" fill="rgba(96,165,250,0.12)"/></svg>
+          </div>
+          <h3 class="why-title">Premium Quality Finish</h3>
+          <p class="why-desc">We use professional-grade products and trained technicians for a showroom-worthy result every single time.</p>
+        </div>
+        <div class="why-card" id="why-speed">
+          <div class="why-number">02</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#a78bfa" stroke-width="1.5" fill="rgba(167,139,250,0.12)"/><path d="M16 9 L16 16 L21 19" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="why-title">Quick Turnaround</h3>
+          <p class="why-desc">Most services completed in under 45 minutes. No long waits — we respect your time as much as we respect your car.</p>
+        </div>
+        <div class="why-card" id="why-trusted">
+          <div class="why-number">03</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 4 L26 9 L26 18 Q26 25 16 29 Q6 25 6 18 L6 9 Z" stroke="#34d399" stroke-width="1.5" fill="rgba(52,211,153,0.12)"/><path d="M11 16 L14.5 19.5 L21 13" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="why-title">Trusted Local Wash</h3>
+          <p class="why-desc">NFS Carwash is a Kerala favourite. Over 5,000 satisfied customers across Kochi, Calicut, and beyond trust our mobile team.</p>
+        </div>
+        <div class="why-card" id="why-doorstep">
+          <div class="why-number">04</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="10" width="24" height="16" rx="3" stroke="#fbbf24" stroke-width="1.5" fill="rgba(251,191,36,0.12)"/><path d="M4 14 L16 8 L28 14" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/><path d="M13 26 L13 20 L19 20 L19 26" stroke="#fbbf24" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="why-title">Doorstep Service</h3>
+          <p class="why-desc">Our mobile team comes to you — apartment, office, or home. No need to drive anywhere. We bring the car wash to your car.</p>
+        </div>
+        <div class="why-card" id="why-eco">
+          <div class="why-number">05</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 4 Q24 8 26 18 Q22 28 16 28 Q10 28 6 18 Q8 8 16 4 Z" stroke="#34d399" stroke-width="1.5" fill="rgba(52,211,153,0.1)"/><path d="M16 14 Q19 11 22 14" stroke="#34d399" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="why-title">Eco-Friendly Waterless</h3>
+          <p class="why-desc">Our waterless wash uses just 2 litres — vs. 200L for a regular car wash. Clean car, clean conscience. #iSaveWater</p>
+        </div>
+        <div class="why-card" id="why-care">
+          <div class="why-number">06</div>
+          <div class="why-icon">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M16 27 Q6 20 6 13 A6 6 0 0 1 16 9 A6 6 0 0 1 26 13 Q26 20 16 27 Z" stroke="#f87171" stroke-width="1.5" fill="rgba(248,113,113,0.12)"/></svg>
+          </div>
+          <h3 class="why-title">We Care For Your Car</h3>
+          <p class="why-desc">Every technician is trained to handle luxury vehicles. We treat your car with the same love you do — guaranteed scratch-free service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">The <span class="accent">Gallery</span></h2>
+        <p class="section-sub">Real cars. Real results. No filters — just clean.</p>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item--large" id="gallery-1">
+        <img src="works (1).png" alt="Foam wash on Hyundai i20 — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Foam Wash</span></div>
+      </div>
+      <div class="gallery-item" id="gallery-2">
+        <img src="works (2).png" alt="Mercedes night wash — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Night Service</span></div>
+      </div>
+      <div class="gallery-item" id="gallery-3">
+        <img src="works (3).png" alt="Foam covered Mercedes — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Foam Treatment</span></div>
+      </div>
+      <div class="gallery-item" id="gallery-4">
+        <img src="works (4).png" alt="Interior cleaning Mercedes C-Class — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Interior Detail</span></div>
+      </div>
+      <div class="gallery-item" id="gallery-5">
+        <img src="works (5).png" alt="NFS mobile service van — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Mobile Service</span></div>
+      </div>
+      <div class="gallery-item gallery-item--large" id="gallery-6">
+        <img src="works (6).png" alt="Wheel cleaning Mercedes C-Class — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>Wheel Detail</span></div>
+      </div>
+      <div class="gallery-item" id="gallery-7">
+        <img src="works7.png" alt="NFS team on-site detailing — NFS Carwash" loading="lazy" />
+        <div class="gallery-overlay"><span>On-Site Team</span></div>
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="section section--dark" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Customer Stories</span>
+        <h2 class="section-title">What They <span class="accent">Say</span></h2>
+        <p class="section-sub">Trusted by car owners across Kerala.</p>
+      </div>
+      <div class="reviews-track-wrap">
+        <div class="reviews-track" id="reviews-track">
+
+          <div class="review-card" id="review-1">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Absolutely incredible service. My Mercedes GLE looked like it just rolled out of the showroom. The foam wash and interior detailing combo was worth every rupee."</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#60a5fa,#2563eb);">R</div>
+              <div>
+                <div class="author-name">Rahul Menon</div>
+                <div class="author-loc">Kochi, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card" id="review-2">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"The waterless wash concept blew my mind. They used barely any water and my car was spotless. Booked them three times already. Highly recommend!"</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#a78bfa,#7c3aed);">S</div>
+              <div>
+                <div class="author-name">Sreejith K.</div>
+                <div class="author-loc">Calicut, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card" id="review-3">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"They came to my apartment parking and cleaned my BMW in under 40 minutes. The interior smells amazing and the paint is gleaming. Superb professionalism!"</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#34d399,#059669);">A</div>
+              <div>
+                <div class="author-name">Asha Nair</div>
+                <div class="author-loc">Thrissur, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card" id="review-4">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Been using NFS for 2 years. Consistent quality, punctual, and their team is always polite. The polishing service removed scratches I thought were permanent."</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#fbbf24,#d97706);">V</div>
+              <div>
+                <div class="author-name">Vijay Prakash</div>
+                <div class="author-loc">Ernakulam, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card" id="review-5">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Best car care service in Kerala. The attention to detail is unmatched — they cleaned every nook and cranny of my SUV. WhatsApp booking made it super easy."</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#f87171,#dc2626);">P</div>
+              <div>
+                <div class="author-name">Priya Thomas</div>
+                <div class="author-loc">Kottayam, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate cards for seamless loop -->
+          <div class="review-card" aria-hidden="true">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Absolutely incredible service. My Mercedes GLE looked like it just rolled out of the showroom. The foam wash and interior detailing combo was worth every rupee."</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#60a5fa,#2563eb);">R</div>
+              <div>
+                <div class="author-name">Rahul Menon</div>
+                <div class="author-loc">Kochi, Kerala</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card" aria-hidden="true">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"The waterless wash concept blew my mind. They used barely any water and my car was spotless. Booked them three times already. Highly recommend!"</p>
+            <div class="review-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg,#a78bfa,#7c3aed);">S</div>
+              <div>
+                <div class="author-name">Sreejith K.</div>
+                <div class="author-loc">Calicut, Kerala</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Find Us</span>
+        <h2 class="section-title">Our <span class="accent">Location</span></h2>
+        <p class="section-sub">Or let us come to you — doorstep service available across Kerala.</p>
+      </div>
+      <div class="location-wrap">
+        <div class="location-info">
+          <div class="location-detail" id="location-address">
+            <div class="loc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            </div>
+            <div>
+              <div class="loc-label">Address</div>
+              <div class="loc-value">NFS Carwash, Kochi, Kerala, India</div>
+            </div>
+          </div>
+          <div class="location-detail" id="location-phone">
+            <div class="loc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div>
+              <div class="loc-label">Phone</div>
+              <div class="loc-value"><a href="tel:+917902000000">+91 7902 000 000</a></div>
+            </div>
+          </div>
+          <div class="location-detail" id="location-web">
+            <div class="loc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div>
+              <div class="loc-label">Website</div>
+              <div class="loc-value"><a href="https://www.nfscarwash.com" target="_blank" rel="noopener">www.nfscarwash.com</a></div>
+            </div>
+          </div>
+          <div class="location-detail" id="location-hours">
+            <div class="loc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div>
+              <div class="loc-label">Working Hours</div>
+              <div class="loc-value">Mon–Sat: 7:00 AM – 8:00 PM<br/>Sun: 8:00 AM – 6:00 PM</div>
+            </div>
+          </div>
+          <div class="location-ctas">
+            <a href="https://wa.me/917902000000" class="btn-primary" id="location-wa-btn" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.121 1.532 5.852L0 24l6.322-1.517A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.681-.516-5.21-1.414l-.374-.222-3.751.9.938-3.661-.243-.387A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Book on WhatsApp
+            </a>
+            <a href="https://maps.google.com/?q=NFS+Carwash+Kochi+Kerala" target="_blank" rel="noopener" class="btn-secondary" id="location-maps-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              Get Directions
+            </a>
+          </div>
+        </div>
+        <div class="location-map">
+          <div class="map-frame">
+            <iframe
+              id="google-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125122.28634447295!2d76.21760999999999!3d9.9674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5f6c2fd!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="NFS Carwash location on Google Maps">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" id="cta-banner">
+    <div class="cta-bg-lines"></div>
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2>Ready for a <span class="accent">Spotless</span> Ride?</h2>
+          <p>Book your premium car wash today. We come to you.</p>
+        </div>
+        <div class="cta-buttons">
+          <a href="https://wa.me/917902000000" class="btn-primary btn-lg" id="cta-wa-btn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.121 1.532 5.852L0 24l6.322-1.517A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.681-.516-5.21-1.414l-.374-.222-3.751.9.938-3.661-.243-.387A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            WhatsApp Now
+          </a>
+          <a href="tel:+917902000000" class="btn-outline btn-lg" id="cta-call-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Call Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-nfs">NFS</span><span class="logo-cw">CARWASH</span>
+          </a>
+          <p class="footer-tagline">Premium Car Wash &amp; Detailing Service<br/>Kerala's Most Trusted Mobile Car Care.</p>
+          <div class="footer-hashtag">#iSaveWater</div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Get In Touch</h4>
+          <a href="tel:+917902000000" class="footer-contact-link">+91 7902 000 000</a>
+          <a href="https://wa.me/917902000000" class="footer-contact-link" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://www.nfscarwash.com" class="footer-contact-link" target="_blank" rel="noopener">www.nfscarwash.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 NFS Carwash. All rights reserved.</span>
+        <span>Made with ❤️ in Kerala</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== STICKY WHATSAPP BUTTON ===== -->
+  <a href="https://wa.me/917902000000" class="wa-fab" id="wa-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <div class="wa-pulse"></div>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.121 1.532 5.852L0 24l6.322-1.517A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.681-.516-5.21-1.414l-.374-.222-3.751.9.938-3.661-.243-.387A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <span class="wa-tooltip">Chat with us!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
